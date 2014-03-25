@@ -7,11 +7,11 @@ Save your dom element counts using this plugin.
 How to use:
 ===========
 
-Wrap the html code which you want to save for dom count in a special comments &gt;!--//MGDOM [html] MGDOM//--&lt;
+Wrap the html code which you want to save for dom count in a special comments &lt;!--//MGDOM [html] MGDOM//--&gt;
 
 Example:
 
-<code>
+<pre>
     &lt;div class="reducedoms"&gt;
       &lt;!--//MGDOM
       ...
@@ -24,15 +24,15 @@ Example:
       ...
        MGDOM//--&gt;
     &lt;/div&gt;
-</code>
+</pre>
 
 now call the mgDom plugin:
 
-<code>
+<pre>
     &lt;script&gt;
         $('.reducedoms').mgDom();
     &lt;/script&gt;
-</code>
+</pre>
 
 Events Available:
 =================
