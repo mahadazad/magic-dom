@@ -6,7 +6,7 @@ Save your dom element counts using this plugin.
 How to use:
 ===========
 
-Wrap the html code which you want to save for dom count in a special comments &lt;!--//MGDOM [html] MGDOM//--&gt;
+Wrap the html code which you want to save for dom count in a special comments<br /> &lt;!--//MGDOM [html] MGDOM//--&gt;
 
 Example:
 
