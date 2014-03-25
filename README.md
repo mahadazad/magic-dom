@@ -1,4 +1,3 @@
-
 Magic DOM
 =========
 
@@ -36,5 +35,5 @@ now call the mgDom plugin:
 
 Events Available:
 =================
-onDomChange
+onDomChange <br />
 beforeDomChange
