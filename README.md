@@ -29,11 +29,17 @@ now call the mgDom plugin:
 
 <pre>
     &lt;script&gt;
-        $('.reducedoms').mgDom();
+        $(window).load(function(){
+            $('.reducedoms').mgDom();
+        });
     &lt;/script&gt;
 </pre>
 
-Events Available:
+Options Available:
 =================
-onDomChange <br />
-beforeDomChange
+| Option        | type           | description  |
+| ------------- |:-------------:| -----:|
+| onDomChange      | function | called after dom has been injected |
+| beforeDomChange      | function      |   called before dom injection |
+  <br />
+
