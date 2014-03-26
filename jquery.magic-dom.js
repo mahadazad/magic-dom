@@ -21,7 +21,7 @@
         return this.each(function() {
             var $this = $(this);
             if (!$this.data('mgdom-injected')) {
-                var mghtml = $(this).html();
+                var mghtml = $this.html();
                 var html = mghtml.replace(regEx, '$1');
                 settings.beforeDomChange.call(this);
                 $this.html(html);
